@@ -37,7 +37,14 @@
     padding: 10px;
     border-left: 1px solid black ;
 }
+.itemIconOnly {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+}
 
-.itemIcon img {
+.itemIcon img, .itemIconOnly img {
     width: 30px;
 }

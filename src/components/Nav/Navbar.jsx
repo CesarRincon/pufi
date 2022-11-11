@@ -11,7 +11,7 @@ export default function Navbar() {
     <nav className={s.navbar}>
       <img src={logo} alt="" />
       <div className={s.containerIcons}>
-        <div className={s.itemIcon}>
+        <div className={s.itemIconOnly}>
           <img src={puff} alt="puff" />
           <span>PUFI PUFF</span> 
         </div>
