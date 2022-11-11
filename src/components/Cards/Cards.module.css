@@ -1,0 +1,91 @@
+.containerCards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.itemCard {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50vh;
+}
+
+#cardTwo {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+
+/* IMAGENES */
+
+.imageCard {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#imageCardOne {
+    background-image: url("../../image/pufiRain.webp");
+    background-size: cover;
+    filter: brightness(0.7);
+}
+
+#imageCardTwo {
+    background-image: url("../../image/pufi-puff.webp");
+    background-size: cover;
+}
+#imageCardThree {
+    background-image: url("../../image/pufiCart.webp");
+    background-size: cover;
+}
+#imageCardFour {
+    background-image: url("../../image/pufinap.jpg");
+    background-size: cover;
+}
+
+.itemCard button {
+    background-color: transparent;
+    width: 100px;
+    height: 50px;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 4px;
+    border: 3px solid black;
+  }
+  
+.itemCard button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.413);
+  }
+
+/*DESCRIPCION*/
+
+.descriptionCard {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.descriptionCard img {
+    width: 130px;
+}
+.descriptionCard h2 {
+    margin: 0;
+}
+.descriptionCard span, .descriptionCard a{
+   color: rgb(120, 120, 120);
+   width: 250px;
+   margin-bottom: 20px;
+   text-decoration: none;
+}
+
+.descriptionCard a:hover {
+    color: black;
+}
+

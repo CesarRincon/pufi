@@ -1,0 +1,62 @@
+.footer{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: space-around;
+    padding-top: 5px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.containerLogo {
+    display: flex;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1.2px;
+} 
+
+.products{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.itemSecurity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.itemSecurity img{
+    width: 35px;
+}
+
+.itemShield{
+    display: flex;
+}
+
+.redes {
+    display: flex;
+    gap: 50px;
+}
+
+
+.redes img {
+    width: 20px;
+    height: 20px;
+}

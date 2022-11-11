@@ -1,0 +1,81 @@
+.containerNewsletter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    height: 100vh;
+    gap: 20px;
+    text-align: center;
+}
+
+.collage{
+    background-color: rebeccapurple;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+}
+
+.collage img {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+.containerNewsletter h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.subtitle {
+    color: rgb(161, 161, 161);
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0;
+    width: 600px;
+    margin-top: 50px;
+}
+
+.newsletter h3 {
+    letter-spacing: 4px;
+}
+.minidescription {
+    font-size: 13px;
+    color: rgb(73, 73, 73);
+}
+
+.newsletter input {
+    margin: 0; 
+    width: 80%;
+    height: 18px;
+    padding: 5px;
+}
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.form img {
+    width: 25px;  
+}
+
+.form button {
+    position: absolute;
+    width: 25px;
+    right: 60px;
+    bottom: 1px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+
